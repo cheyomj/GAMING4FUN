@@ -1,0 +1,53 @@
+  main {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .bienvenida {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .resaltado {
+    color: $color-secondary;
+    text-shadow: 0 0 5px #00ffc3;
+  }
+
+  section {
+    background-color: $color-bg-section;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #00ffc3;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #00ffc3aa;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  input,
+  textarea {
+    background-color: $color-bg-input;
+    border: 1px solid #00ffc3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: $font-main;
+  }
+
+  input[type='submit'] {
+    background-color: #00ffc3;
+    color: #0f0f0f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  input[type='submit']:hover {
+    background-color: $color-primary-hover;
+    box-shadow: 0 0 10px #00ffc3;
+  }

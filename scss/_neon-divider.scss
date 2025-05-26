@@ -1,0 +1,8 @@
+    .neon-divider {
+        height: 3px;
+        width: 80%;
+        margin: 40px auto;
+        background: linear-gradient(90deg, $color-primary, $color-primary-dark, $color-primary);
+        box-shadow: 0 0 10px $color-primary, 0 0 20px $color-primary;
+        border-radius: 10px;
+    } 

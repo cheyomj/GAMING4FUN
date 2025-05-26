@@ -1,0 +1,60 @@
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 255, 255, 0.1);
+        box-shadow: 0 0 20px $color-primary;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        color: $color-primary;
+        text-shadow: 0 0 10px $color-primary;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        flex-direction: row; // por defecto desktop
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav a {
+        color: white;
+        text-decoration: none;
+        border: 1px solid $color-primary;
+        padding: 10px 15px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav a:hover {
+        background-color: $color-primary;
+        color: $color-text-dark;
+        box-shadow: 0 0 10px $color-primary;
+    }
+
+    nav a {
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px $color-primary;
+        color: $color-primary;
+    }
+
+    .logo {
+        animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+        0% {
+        text-shadow: 0 0 5px $color-primary, 0 0 10px $color-primary;
+    }
+    100% {
+        text-shadow: 0 0 20px $color-primary, 0 0 30px $color-primary;
+    }
+}
