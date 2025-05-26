@@ -1,0 +1,24 @@
+    main {
+        padding: 40px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .bienvenida {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .resaltado {
+        color: $secondary-color;
+        text-shadow: 0 0 5px $primary-color;
+    }
+
+    section {
+        background-color: $bg-dark;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-left: 5px solid $primary-color;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba($primary-color, 0.67);
+    }

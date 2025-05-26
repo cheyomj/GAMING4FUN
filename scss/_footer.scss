@@ -1,0 +1,37 @@
+    .footer {
+        background: rgba(0, 0, 0, 0.8);
+        border-top: 2px solid $color-primary;
+        padding: 30px 20px;
+        text-align: center;
+        color: $color-primary;
+        font-family: $font-main;
+        box-shadow: 0 -5px 15px $color-primary;
+    }
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .footer a:hover {
+        color: $color-primary;
+        text-shadow: 0 0 10px $color-primary;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        color: $color-primary;
+        font-size: 1.8rem;
+        margin: 0 10px;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+        color: white;
+        transform: scale(1.3);
+    }
