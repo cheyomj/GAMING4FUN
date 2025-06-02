@@ -10,12 +10,12 @@
   }
 
   .resaltado {
-    color: $color-secondary;
+    color: $secondary-color;
     text-shadow: 0 0 5px #00ffc3;
   }
 
   section {
-    background-color: $color-bg-section;
+    background-color: $bg-color-section;
     padding: 20px;
     margin-bottom: 30px;
     border-left: 5px solid #00ffc3;
@@ -31,7 +31,7 @@
 
   input,
   textarea {
-    background-color: $color-bg-input;
+    background-color: $bg-color-input;
     border: 1px solid #00ffc3;
     color: white;
     padding: 10px;
@@ -48,6 +48,6 @@
   }
 
   input[type='submit']:hover {
-    background-color: $color-primary-hover;
+    background-color: $primary-color-hover;
     box-shadow: 0 0 10px #00ffc3;
   }

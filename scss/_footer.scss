@@ -1,11 +1,11 @@
     .footer {
         background: rgba(0, 0, 0, 0.8);
-        border-top: 2px solid $color-primary;
+        border-top: 2px solid $primary-color;
         padding: 30px 20px;
         text-align: center;
-        color: $color-primary;
+        color: $primary-color;
         font-family: $font-main;
-        box-shadow: 0 -5px 15px $color-primary;
+        box-shadow: 0 -5px 15px $primary-color;
     }
 
     .footer a {
@@ -16,8 +16,8 @@
     }
 
     .footer a:hover {
-        color: $color-primary;
-        text-shadow: 0 0 10px $color-primary;
+        color: $primary-color;
+        text-shadow: 0 0 10px $primary-color;
     }
 
     .social-icons {
@@ -25,7 +25,7 @@
     }
 
     .social-icons a {
-        color: $color-primary;
+        color: $primary-color;
         font-size: 1.8rem;
         margin: 0 10px;
         transition: transform 0.3s ease, color 0.3s ease;

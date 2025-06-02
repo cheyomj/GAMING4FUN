@@ -2,13 +2,13 @@
         text-align: center;
         padding: 20px;
         background-color: rgba(0, 255, 255, 0.1);
-        box-shadow: 0 0 20px $color-primary;
+        box-shadow: 0 0 20px $primary-color;
     }
 
     header h1 {
         font-size: 2.5rem;
-        color: $color-primary;
-        text-shadow: 0 0 10px $color-primary;
+        color: $primary-color;
+        text-shadow: 0 0 10px $primary-color;
     }
 
     .nav {
@@ -23,7 +23,7 @@
     .nav a {
         color: white;
         text-decoration: none;
-        border: 1px solid $color-primary;
+        border: 1px solid $primary-color;
         padding: 10px 15px;
         border-radius: 8px;
         transition: all 0.3s ease;
@@ -31,9 +31,9 @@
     }
 
     .nav a:hover {
-        background-color: $color-primary;
-        color: $color-text-dark;
-        box-shadow: 0 0 10px $color-primary;
+        background-color: $primary-color;
+        color: $text-color-dark;
+        box-shadow: 0 0 10px $primary-color;
     }
 
     nav a {
@@ -42,8 +42,8 @@
 
     nav a:hover {
         transform: scale(1.1);
-        box-shadow: 0 0 15px $color-primary;
-        color: $color-primary;
+        box-shadow: 0 0 15px $primary-color;
+        color: $primary-color;
     }
 
     .logo {
@@ -52,9 +52,9 @@
 
     @keyframes glow {
         0% {
-        text-shadow: 0 0 5px $color-primary, 0 0 10px $color-primary;
+        text-shadow: 0 0 5px $primary-color, 0 0 10px $primary-color;
     }
     100% {
-        text-shadow: 0 0 20px $color-primary, 0 0 30px $color-primary;
+        text-shadow: 0 0 20px $primary-color, 0 0 30px $primary-color;
     }
 }

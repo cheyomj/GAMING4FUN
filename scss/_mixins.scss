@@ -1,0 +1,34 @@
+    @mixin neon-shadow($color) {
+        text-shadow: 0 0 5px $color, 0 0 10px $color, 0 0 20px $color;
+    }
+
+    @mixin flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @mixin btn-glow($bg-color, $text-color: black) {
+        background-color: $bg-color;
+        color: $text-color;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px $bg-color;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 0 20px $bg-color, 0 0 30px $bg-color;
+        transform: scale(1.05);
+    }
+}
+
+    @mixin respond-to($breakpoint) {
+        @if $breakpoint == "mobile" {
+        @media (max-width: 768px) { @content; }
+    }
+        @else if $breakpoint == "tablet" {
+        @media (max-width: 1024px) { @content; }
+    }
+}

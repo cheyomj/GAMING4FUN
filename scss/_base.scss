@@ -5,15 +5,15 @@
         background-position: center;
         background-attachment: fixed;
         font-family: $font-main;
-        color: $color-text-dark;
+        color: $text-color-dark;
         margin: 0;
         padding: 0;
     }
 
     h2 {
         text-align: center;
-        color: $color-secondary-alt !important;
-        text-shadow: 0 0 5px $color-secondary-alt !important;
+        color: $secondary-color-alt !important;
+        text-shadow: 0 0 5px $secondary-color-alt !important;
     }
 
     ul {
@@ -23,5 +23,5 @@
 
     ul li {
         margin-bottom: 10px;
-        color: $color-text-light;
+        color: $text-color-light;
     }

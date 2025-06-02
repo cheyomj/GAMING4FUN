@@ -1,13 +1,14 @@
-    $color-primary: #00fff7;
-    $color-primary-dark: #008cff;
-    $color-primary-hover: #00c3a0;
-    $color-secondary: #ff0077;
-    $color-secondary-alt: #ff3c8d;
-    $color-bg-section: #1b1b1b;
-    $color-bg-input: #2a2a2a;
-    $color-text-light: #f4f4f4;
-    $color-text-dark: #000;
+    $primary-color: #00fff7;
+    $primary-color-dark: #008cff;
+    $primary-color-hover: #00c3a0;
+    $secondary-color: #ff7077;
+    $secondary-color-alt: #ff3c8d;
+    $bg-color-section: #1b1b1b;
+    $bg-color-input: #2a2a2a;
+    $bg-dark: #121212;
+    $text-color-light: #f4f4f4;
+    $text-color-dark: #000;
     $font-main: 'Orbitron', sans-serif;
 
-    $box-shadow-primary: 0 0 10px $color-primary;
-    $box-shadow-primary-strong: 0 0 20px $color-primary, 0 0 30px $color-primary;
+    $box-shadow-primary: 0 0 10px $primary-color;
+    $box-shadow-primary-strong: 0 0 20px $primary-color, 0 0 30px $primary-color;

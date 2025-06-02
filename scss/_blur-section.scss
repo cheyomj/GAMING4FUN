@@ -10,12 +10,12 @@
     .blur-content {
         background: rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(10px);
-        border: 2px solid $color-primary;
+        border: 2px solid $primary-color;
         border-radius: 20px;
         padding: 40px;
         color: white;
         text-align: center;
-        box-shadow: 0 0 20px $color-primary;
+        box-shadow: 0 0 20px $primary-color;
         max-width: 600px;
         font-family: $font-main;
     }

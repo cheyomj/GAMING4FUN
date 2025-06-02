@@ -1,8 +1,28 @@
     .neon-divider {
-        height: 3px;
-        width: 80%;
-        margin: 40px auto;
-        background: linear-gradient(90deg, $color-primary, $color-primary-dark, $color-primary);
-        box-shadow: 0 0 10px $color-primary, 0 0 20px $color-primary;
+        height: 4px;
+        width: 100%;
+        background: $primary-color;
+        box-shadow:
+        0 0 10px $primary-color,
+        0 0 20px $primary-color,
+        0 0 30px $primary-color;
+
+        margin: 2rem 0;
         border-radius: 10px;
-    } 
+        animation: pulseNeon 1.5s infinite alternate;
+}
+
+    @keyframes pulseNeon {
+    from {
+    box-shadow:
+        0 0 5px $primary-color,
+        0 0 10px $primary-color,
+        0 0 15px $primary-color;
+    }
+    to {
+    box-shadow:
+        0 0 20px $primary-color,
+        0 0 30px $primary-color,
+        0 0 40px $primary-color;
+    }
+}
